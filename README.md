@@ -91,7 +91,7 @@ spec:
    - Application Name: `nginx-lab`
    - Project: `default`
    - Sync Policy: `Automatic`
-   - Repository URL: ``
+   - Repository URL: `https://github.com/rarrifano/argocd`
    - Path: `apps/nginx`
    - Cluster: `in-cluster` (https://kubernetes.default.svc)
    - Namespace: `default`
