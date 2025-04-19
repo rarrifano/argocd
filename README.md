@@ -117,13 +117,6 @@ spec:
 minikube service nginx-service --url
 ```
 
-## Próximos Passos
-
-1. Adicionar Health Checks nos manifests
-2. Implementar Rollbacks via Git
-3. Configurar Notificações (Slack/Webhooks)
-4. Adicionar Kustomize/Helm
-
 ## Referências
 
 - [Documentação Oficial ArgoCD](https://argo-cd.readthedocs.io/)
@@ -133,17 +126,3 @@ minikube service nginx-service --url
 ---
 ![GitOps Flow](https://argo-cd.readthedocs.io/en/stable/assets/argocd-ui.gif)
 *Fluxo básico do ArgoCD (Fonte: Documentação Oficial)*
-```
-
-**Dica para o Repositório:**  
-Adicione um arquivo `.gitignore` com:
-```
-# Diretórios do Kubernetes
-kubeconfig
-.kube
-
-# Logs e temporários
-*.log
-*.tmp
-```
-```
