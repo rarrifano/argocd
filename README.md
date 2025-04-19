@@ -7,7 +7,6 @@ Laboratório prático para aprender os conceitos básicos de GitOps utilizando A
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/) instalado
 - [kubectl](https://kubernetes.io/docs/tasks/tools/) configurado
 - Conta no [GitHub](https://github.com/) ou similar
-- [Helm](https://helm.sh/docs/intro/install/) (opcional)
 
 ## Configuração Inicial
 
